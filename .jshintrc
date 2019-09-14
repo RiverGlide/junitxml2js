@@ -1,0 +1,10 @@
+{
+  "maxerr": 9999,
+  "enforceall": true,
+  "es3": false,
+  "es5": false,
+  "esversion": 6,
+  "camelcase": false,
+  "node": true,
+  "mocha": true
+}

@@ -1,0 +1,36 @@
+{
+  "name": "@riverglide/junitxml2js",
+  "version": "1.0.0",
+  "description": "Converts between the ANT JUnit XML output and a JavaScript object representation",
+  "main": "lib/junitxml2js.js",
+  "scripts": {
+    "jshint": "jshint --config .jshintrc **/*.js",
+    "eslint": "eslint --config .eslintrc.js **/*.js",
+    "test": "mocha test/examples/**/*.js",
+    "test:all": "npm-run-all --parallel jshint eslint test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riverglide/junitxml2js.git"
+  },
+  "keywords": [
+    "apache",
+    "ant",
+    "junit",
+    "junitxml",
+    "testing"
+  ],
+  "author": "RiverGlide",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riverglide/junitxml2js/issues"
+  },
+  "homepage": "https://github.com/riverglide/junitxml2js#readme",
+  "devDependencies": {
+    "chai": "4.2.0",
+    "eslint": "5.16.0",
+    "jshint": "*",
+    "mocha": "6.1.4",
+    "npm-run-all": "*"
+  }
+}
