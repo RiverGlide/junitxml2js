@@ -26,6 +26,9 @@
     "url": "https://github.com/riverglide/junitxml2js/issues"
   },
   "homepage": "https://github.com/riverglide/junitxml2js#readme",
+  "dependencies": {
+    "xml-js": "*"
+  },
   "devDependencies": {
     "chai": "4.2.0",
     "eslint": "5.16.0",
