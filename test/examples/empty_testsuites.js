@@ -8,7 +8,7 @@ const xml = `
 
 const js = new TestSuites();
 
-describe("An empty testsuite", () => {
+describe("An empty testsuites", () => {
   it("should convert from XML to JS", () => {
     expect(TestSuites.from(xml)).to.deep.equal(js);
   });
